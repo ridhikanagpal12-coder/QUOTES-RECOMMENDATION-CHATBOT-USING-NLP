@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Rasa
+.rasa/
+*.lock
+*.log
+tensorboard/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Project specific
+**/__pycache__/
+**/*.pyc
+.DS_Store
