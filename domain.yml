@@ -1,0 +1,167 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - ask_motivation
+  - ask_success
+  - ask_love
+  - ask_humor
+  - ask_inspiration
+  - ask_life_advice
+  - ask_wisdom
+  - affirm
+  - deny
+  - thank
+  - mood_great
+  - mood_unhappy
+  - mood_stressed
+  - mood_anxious
+  - mood_tired
+  - another_quote
+  - feedback_positive
+  - feedback_negative
+  - ask_author
+  - search_by_topic
+
+entities:
+  - emotion
+  - category
+  - topic
+  - author
+
+slots:
+  emotion:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: emotion
+      - type: from_text
+  category:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: category
+      - type: from_text
+  topic:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: topic
+  author:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: author
+  last_quote:
+    type: text
+    mappings:
+      - type: custom
+  last_category:
+    type: text
+    mappings:
+      - type: custom
+  quote_history:
+    type: list
+    mappings:
+      - type: custom
+  session_quotes:
+    type: list
+    mappings:
+      - type: custom
+
+responses:
+  utter_greet:
+    - text: "Hi! I'm your ultimate quote companion! 🌟 Tell me how you feel or what kind of quote you need: motivation, success, love, humor, wisdom, or inspiration!"
+      buttons:
+        - title: "Motivation 💪"
+          payload: "motivate me"
+        - title: "Love ❤️"
+          payload: "love quote"
+        - title: "Humor 😄"
+          payload: "tell me a joke"
+        - title: "Wisdom 🧠"
+          payload: "give me wisdom"
+
+  utter_goodbye:
+    - text: "Bye! Stay inspired and come back anytime! ✨"
+    - text: "Take care! Remember, every day is a fresh start 🌟"
+    - text: "Goodbye! Keep smiling and stay positive! 😊"
+
+  utter_iamabot:
+    - text: "I'm Ultimate QuoteBot, an AI assistant with over 100+ quotes built to share inspiration based on your mood and interests!"
+
+  utter_happy:
+    - text: "That's wonderful! Keep that positive energy! 🌟 Here's something for you:"
+    - text: "So glad to hear that! Here's to more great days ahead! 🎉"
+    - text: "Awesome! Happiness looks good on you! 😊"
+
+  utter_cheer_up:
+    - text: "I'm sorry you're feeling this way. Here's a comforting thought: tough times don't last, but tough people do. 💪"
+    - text: "Every storm runs out of rain. Better days are coming! 🌈"
+    - text: "It's okay to not be okay. Take a deep breath, and let's find some inspiration together."
+
+  utter_did_that_help:
+    - text: "Did that help lift your spirits a bit?"
+    - text: "Feeling any better now?"
+    - text: "Would you like another quote to boost your mood?"
+
+  utter_welcome:
+    - text: "You're welcome! 😊 Come back anytime for more inspiration!"
+    - text: "Happy to help! Let me know if you need another quote!"
+    - text: "My pleasure! That's what I'm here for ✨"
+
+  utter_ask_another:
+    - text: "Would you like another quote? Just say 'another one'!"
+    - text: "Want to hear more? Ask for another one!"
+    - text: "I have plenty more! Say 'another quote' if you'd like."
+      buttons:
+        - title: "Another one! 🔄"
+          payload: "another one"
+        - title: "Different category 📚"
+          payload: "show categories"
+        - title: "That's all for now 👋"
+          payload: "goodbye"
+
+  utter_help_categories:
+    - text: "I can share quotes about:"
+      buttons:
+        - title: "Motivation 💪"
+          payload: "motivate me"
+        - title: "Success 🏆"
+          payload: "success quote"
+        - title: "Love ❤️"
+          payload: "love quote"
+        - title: "Humor 😄"
+          payload: "tell me a joke"
+        - title: "Inspiration ✨"
+          payload: "inspire me"
+        - title: "Wisdom 🧠"
+          payload: "wisdom quote"
+
+  utter_fallback:
+    - text: "I'm not sure I understood. Try saying something like:"
+      buttons:
+        - title: "Motivate me"
+          payload: "motivate me"
+        - title: "I feel sad"
+          payload: "i feel sad"
+        - title: "Tell me a joke"
+          payload: "tell me a joke"
+        - title: "Love quote"
+          payload: "love quote"
+
+actions:
+  - action_send_quote
+  - action_another_quote
+  - action_send_quote_by_emotion
+  - action_search_by_author
+  - action_search_by_topic
+  - action_get_popular_quotes
+  - action_get_daily_quote
+  - action_track_feedback
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
