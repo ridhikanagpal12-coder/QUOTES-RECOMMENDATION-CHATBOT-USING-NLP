@@ -1,0 +1,37 @@
+version: "3.1"
+
+rules:
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
+
+- rule: Another quote rule
+  steps:
+  - intent: another_quote
+  - action: action_another_quote
+
+- rule: Daily quote on request
+  steps:
+  - intent: ask_inspiration
+  - action: action_get_daily_quote
+
+- rule: Show help categories
+  steps:
+  - intent: ask_help
+  - action: utter_help_categories
