@@ -1,0 +1,596 @@
+[
+  {
+    "Quote": "The only way to do great work is to love what you do.",
+    "Author": "Steve Jobs",
+    "Category": "motivation",
+    "Tags": ["work", "passion", "success"]
+  },
+  {
+    "Quote": "Life is what happens when you're busy making other plans.",
+    "Author": "John Lennon",
+    "Category": "life",
+    "Tags": ["wisdom", "present", "mindfulness"]
+  },
+  {
+    "Quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "Author": "Eleanor Roosevelt",
+    "Category": "motivation",
+    "Tags": ["dreams", "future", "inspiration"]
+  },
+  {
+    "Quote": "You only live once, but if you do it right, once is enough.",
+    "Author": "Mae West",
+    "Category": "humor",
+    "Tags": ["funny", "life", "wisdom"]
+  },
+  {
+    "Quote": "I love you without knowing how, or when, or from where.",
+    "Author": "Pablo Neruda",
+    "Category": "love",
+    "Tags": ["romantic", "poetry"]
+  },
+  {
+    "Quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "Author": "Winston Churchill",
+    "Category": "motivation",
+    "Tags": ["success", "failure", "courage"]
+  },
+  {
+    "Quote": "Be yourself; everyone else is already taken.",
+    "Author": "Oscar Wilde",
+    "Category": "humor",
+    "Tags": ["funny", "wisdom", "authenticity"]
+  },
+  {
+    "Quote": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
+    "Author": "Dr. Seuss",
+    "Category": "love",
+    "Tags": ["romantic", "sweet"]
+  },
+  {
+    "Quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "Author": "Chinese Proverb",
+    "Category": "motivation",
+    "Tags": ["action", "time", "wisdom"]
+  },
+  {
+    "Quote": "I'm not afraid of death; I just don't want to be there when it happens.",
+    "Author": "Woody Allen",
+    "Category": "humor",
+    "Tags": ["funny", "philosophy"]
+  },
+  {
+    "Quote": "To love and be loved is to feel the sun from both sides.",
+    "Author": "David Viscott",
+    "Category": "love",
+    "Tags": ["romantic", "warmth"]
+  },
+  {
+    "Quote": "Don't watch the clock; do what it does. Keep going.",
+    "Author": "Sam Levenson",
+    "Category": "motivation",
+    "Tags": ["persistence", "time"]
+  },
+  {
+    "Quote": "My doctor told me I have a week to live. I told him I want a second opinion. He said, 'Okay, you're ugly too.'",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "doctor", "joke"]
+  },
+  {
+    "Quote": "We accept the love we think we deserve.",
+    "Author": "Stephen Chbosky",
+    "Category": "love",
+    "Tags": ["self-love", "worth"]
+  },
+  {
+    "Quote": "The way to get started is to quit talking and begin doing.",
+    "Author": "Walt Disney",
+    "Category": "motivation",
+    "Tags": ["action", "success"]
+  },
+  {
+    "Quote": "Before you marry a person, you should first make them use a computer with slow internet to see who they really are.",
+    "Author": "Will Ferrell",
+    "Category": "humor",
+    "Tags": ["funny", "relationship"]
+  },
+  {
+    "Quote": "Love is composed of a single soul inhabiting two bodies.",
+    "Author": "Aristotle",
+    "Category": "love",
+    "Tags": ["philosophical", "deep"]
+  },
+  {
+    "Quote": "It does not matter how slowly you go as long as you do not stop.",
+    "Author": "Confucius",
+    "Category": "motivation",
+    "Tags": ["persistence", "wisdom"]
+  },
+  {
+    "Quote": "I find television very educating. Every time somebody turns on the set, I go into the other room and read a book.",
+    "Author": "Groucho Marx",
+    "Category": "humor",
+    "Tags": ["funny", "witty"]
+  },
+  {
+    "Quote": "The best thing to hold onto in life is each other.",
+    "Author": "Audrey Hepburn",
+    "Category": "love",
+    "Tags": ["relationship", "support"]
+  },
+  {
+    "Quote": "Believe you can and you're halfway there.",
+    "Author": "Theodore Roosevelt",
+    "Category": "motivation",
+    "Tags": ["belief", "confidence"]
+  },
+  {
+    "Quote": "I used to think I was indecisive, but now I'm not so sure.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "witty"]
+  },
+  {
+    "Quote": "Love is when the other person's happiness is more important than your own.",
+    "Author": "H. Jackson Brown Jr.",
+    "Category": "love",
+    "Tags": ["selfless", "sweet"]
+  },
+  {
+    "Quote": "Your time is limited, don't waste it living someone else's life.",
+    "Author": "Steve Jobs",
+    "Category": "motivation",
+    "Tags": ["life", "authenticity"]
+  },
+  {
+    "Quote": "I'm on a whiskey diet. I've lost three days already.",
+    "Author": "Tommy Cooper",
+    "Category": "humor",
+    "Tags": ["funny", "drinking"]
+  },
+  {
+    "Quote": "Love is friendship that has caught fire.",
+    "Author": "Ann Landers",
+    "Category": "love",
+    "Tags": ["friendship", "romance"]
+  },
+  {
+    "Quote": "The secret of getting ahead is getting started.",
+    "Author": "Mark Twain",
+    "Category": "motivation",
+    "Tags": ["action", "success"]
+  },
+  {
+    "Quote": "If at first you don't succeed, then skydiving definitely isn't for you.",
+    "Author": "Steven Wright",
+    "Category": "humor",
+    "Tags": ["funny", "failure"]
+  },
+  {
+    "Quote": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+    "Author": "Lao Tzu",
+    "Category": "love",
+    "Tags": ["strength", "courage"]
+  },
+  {
+    "Quote": "The harder you work for something, the greater you'll feel when you achieve it.",
+    "Author": "Unknown",
+    "Category": "motivation",
+    "Tags": ["effort", "success"]
+  },
+  {
+    "Quote": "I'm not arguing, I'm just explaining why I'm right.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "argument"]
+  },
+  {
+    "Quote": "You don't love someone for their looks, or their clothes, or for their fancy car, but because they sing a song only you can hear.",
+    "Author": "Unknown",
+    "Category": "love",
+    "Tags": ["deep", "connection"]
+  },
+  {
+    "Quote": "Don't let yesterday take up too much of today.",
+    "Author": "Will Rogers",
+    "Category": "motivation",
+    "Tags": ["present", "moving on"]
+  },
+  {
+    "Quote": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "marriage"]
+  },
+  {
+    "Quote": "Love is not finding someone to live with, it's finding someone you can't live without.",
+    "Author": "Rafael Ortiz",
+    "Category": "love",
+    "Tags": ["deep", "commitment"]
+  },
+  {
+    "Quote": "It always seems impossible until it's done.",
+    "Author": "Nelson Mandela",
+    "Category": "motivation",
+    "Tags": ["persistence", "hope"]
+  },
+  {
+    "Quote": "I'm reading a book on anti-gravity. It's impossible to put down.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "books"]
+  },
+  {
+    "Quote": "The greatest happiness of life is the conviction that we are loved.",
+    "Author": "Victor Hugo",
+    "Category": "love",
+    "Tags": ["happiness", "deep"]
+  },
+  {
+    "Quote": "Start where you are. Use what you have. Do what you can.",
+    "Author": "Arthur Ashe",
+    "Category": "motivation",
+    "Tags": ["action", "simplicity"]
+  },
+  {
+    "Quote": "I'm so good at sleeping, I can do it with my eyes closed.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "sleep"]
+  },
+  {
+    "Quote": "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.",
+    "Author": "Maya Angelou",
+    "Category": "love",
+    "Tags": ["poetic", "deep"]
+  },
+  {
+    "Quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    "Author": "Zig Ziglar",
+    "Category": "motivation",
+    "Tags": ["growth", "success"]
+  },
+  {
+    "Quote": "I'm not saying I'm Batman. I'm just saying no one has ever seen me and Batman in the same room together.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "superhero"]
+  },
+  {
+    "Quote": "Love is like the wind, you can't see it but you can feel it.",
+    "Author": "Nicholas Sparks",
+    "Category": "love",
+    "Tags": ["romantic", "poetic"]
+  },
+  {
+    "Quote": "The only person you are destined to become is the person you decide to be.",
+    "Author": "Ralph Waldo Emerson",
+    "Category": "motivation",
+    "Tags": ["destiny", "choice"]
+  },
+  {
+    "Quote": "My favorite machine at the gym is the vending machine.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "gym"]
+  },
+  {
+    "Quote": "You are my sun, my moon, and all my stars.",
+    "Author": "E.E. Cummings",
+    "Category": "love",
+    "Tags": ["poetic", "romantic"]
+  },
+  {
+    "Quote": "Hardships often prepare ordinary people for an extraordinary destiny.",
+    "Author": "C.S. Lewis",
+    "Category": "motivation",
+    "Tags": ["struggle", "destiny"]
+  },
+  {
+    "Quote": "I'm on a seafood diet. I see food and I eat it.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "food"]
+  },
+  {
+    "Quote": "Love is an untamed force. When we try to control it, it destroys us. When we try to imprison it, it enslaves us.",
+    "Author": "Paulo Coelho",
+    "Category": "love",
+    "Tags": ["deep", "philosophical"]
+  },
+  {
+    "Quote": "The difference between ordinary and extraordinary is that little extra.",
+    "Author": "Jimmy Johnson",
+    "Category": "motivation",
+    "Tags": ["effort", "success"]
+  },
+  {
+    "Quote": "I'm not clumsy. I'm just testing the gravity theory.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "science"]
+  },
+  {
+    "Quote": "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.",
+    "Author": "Nora Ephron",
+    "Category": "love",
+    "Tags": ["romantic", "commitment"]
+  },
+  {
+    "Quote": "Whether you think you can or you think you can't, you're right.",
+    "Author": "Henry Ford",
+    "Category": "motivation",
+    "Tags": ["mindset", "belief"]
+  },
+  {
+    "Quote": "I'm not getting older, I'm just becoming a classic.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "aging"]
+  },
+  {
+    "Quote": "We loved with a love that was more than love.",
+    "Author": "Edgar Allan Poe",
+    "Category": "love",
+    "Tags": ["poetic", "deep"]
+  },
+  {
+    "Quote": "The only limit to our realization of tomorrow is our doubts of today.",
+    "Author": "Franklin D. Roosevelt",
+    "Category": "motivation",
+    "Tags": ["doubt", "future"]
+  },
+  {
+    "Quote": "I'm so clever that sometimes I don't understand a single word of what I'm saying.",
+    "Author": "Oscar Wilde",
+    "Category": "humor",
+    "Tags": ["funny", "witty"]
+  },
+  {
+    "Quote": "You have bewitched me, body and soul, and I love you.",
+    "Author": "Jane Austen",
+    "Category": "love",
+    "Tags": ["romantic", "classic"]
+  },
+  {
+    "Quote": "The best way to predict the future is to create it.",
+    "Author": "Peter Drucker",
+    "Category": "motivation",
+    "Tags": ["future", "action"]
+  },
+  {
+    "Quote": "I'm not short, I'm just concentrated awesome.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "height"]
+  },
+  {
+    "Quote": "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.",
+    "Author": "Angelita Lim",
+    "Category": "love",
+    "Tags": ["imperfect", "real"]
+  },
+  {
+    "Quote": "Dream big and dare to fail.",
+    "Author": "Norman Vaughan",
+    "Category": "motivation",
+    "Tags": ["dreams", "risk"]
+  },
+  {
+    "Quote": "My bed is a magical place where I suddenly remember everything I forgot to do.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "procrastination"]
+  },
+  {
+    "Quote": "I would rather spend one lifetime with you, than face all the ages of this world alone.",
+    "Author": "J.R.R. Tolkien",
+    "Category": "love",
+    "Tags": ["deep", "commitment"]
+  },
+  {
+    "Quote": "Act as if what you do makes a difference. It does.",
+    "Author": "William James",
+    "Category": "motivation",
+    "Tags": ["impact", "action"]
+  },
+  {
+    "Quote": "I'm not weird, I'm limited edition.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "unique"]
+  },
+  {
+    "Quote": "You are the finest, loveliest, tenderest, and most beautiful person I have ever known.",
+    "Author": "F. Scott Fitzgerald",
+    "Category": "love",
+    "Tags": ["romantic", "classic"]
+  },
+  {
+    "Quote": "Keep your face always toward the sunshine - and shadows will fall behind you.",
+    "Author": "Walt Whitman",
+    "Category": "motivation",
+    "Tags": ["positivity", "hope"]
+  },
+  {
+    "Quote": "I'm not lazy, I'm on energy-saving mode.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "lazy"]
+  },
+  {
+    "Quote": "Every love story is beautiful, but ours is my favorite.",
+    "Author": "Unknown",
+    "Category": "love",
+    "Tags": ["sweet", "romantic"]
+  },
+  {
+    "Quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "Author": "Ralph Waldo Emerson",
+    "Category": "motivation",
+    "Tags": ["inner strength", "wisdom"]
+  },
+  {
+    "Quote": "I'm in shape. Round is a shape.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "body image"]
+  },
+  {
+    "Quote": "You are my today and all of my tomorrows.",
+    "Author": "Leo Christopher",
+    "Category": "love",
+    "Tags": ["romantic", "future"]
+  },
+  {
+    "Quote": "The only person you should try to be better than is the person you were yesterday.",
+    "Author": "Unknown",
+    "Category": "motivation",
+    "Tags": ["self-improvement", "growth"]
+  },
+  {
+    "Quote": "I'm not a complete idiot, some parts are missing.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "self-deprecating"]
+  },
+  {
+    "Quote": "You are the piece of me I wish I didn't need.",
+    "Author": "Unknown",
+    "Category": "love",
+    "Tags": ["deep", "longing"]
+  },
+  {
+    "Quote": "The journey of a thousand miles begins with one step.",
+    "Author": "Lao Tzu",
+    "Category": "motivation",
+    "Tags": ["beginning", "wisdom"]
+  },
+  {
+    "Quote": "I'm great at multitasking. I can waste time, be unproductive, and procrastinate all at once.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "procrastination"]
+  },
+  {
+    "Quote": "I look at you and see the rest of my life in front of my eyes.",
+    "Author": "Unknown",
+    "Category": "love",
+    "Tags": ["romantic", "future"]
+  },
+  {
+    "Quote": "Fall seven times and stand up eight.",
+    "Author": "Japanese Proverb",
+    "Category": "motivation",
+    "Tags": ["persistence", "resilience"]
+  },
+  {
+    "Quote": "I put my phone in airplane mode, but it's not flying.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "technology"]
+  },
+  {
+    "Quote": "I love you more than coffee, but please don't make me prove it.",
+    "Author": "Unknown",
+    "Category": "love",
+    "Tags": ["funny", "sweet"]
+  },
+  {
+    "Quote": "It is never too late to be what you might have been.",
+    "Author": "George Eliot",
+    "Category": "motivation",
+    "Tags": ["late start", "potential"]
+  },
+  {
+    "Quote": "I'm not arguing, I'm just passionately expressing my point of view.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "argument"]
+  },
+  {
+    "Quote": "You are my heart, my life, my one and only thought.",
+    "Author": "Arthur Conan Doyle",
+    "Category": "love",
+    "Tags": ["romantic", "deep"]
+  },
+  {
+    "Quote": "The only way to achieve the impossible is to believe it is possible.",
+    "Author": "Charles Kingsleigh",
+    "Category": "motivation",
+    "Tags": ["belief", "impossible"]
+  },
+  {
+    "Quote": "I'm on a strict diet of cookies, cake, and ice cream. It's called the 'see-food' diet.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "food"]
+  },
+  {
+    "Quote": "If I know what love is, it is because of you.",
+    "Author": "Hermann Hesse",
+    "Category": "love",
+    "Tags": ["grateful", "deep"]
+  },
+  {
+    "Quote": "If you want to lift yourself up, lift up someone else.",
+    "Author": "Booker T. Washington",
+    "Category": "motivation",
+    "Tags": ["kindness", "helping"]
+  },
+  {
+    "Quote": "I'm not saying I'm perfect. I'm just saying I'm an expert at being me.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "confidence"]
+  },
+  {
+    "Quote": "You are the best thing that ever happened to me.",
+    "Author": "Unknown",
+    "Category": "love",
+    "Tags": ["sweet", "simple"]
+  },
+  {
+    "Quote": "The man who moves a mountain begins by carrying away small stones.",
+    "Author": "Confucius",
+    "Category": "motivation",
+    "Tags": ["small steps", "persistence"]
+  },
+  {
+    "Quote": "I'm not old, I'm retro.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "aging"]
+  },
+  {
+    "Quote": "I never want to stop making memories with you.",
+    "Author": "Unknown",
+    "Category": "love",
+    "Tags": ["memories", "romantic"]
+  },
+  {
+    "Quote": "The sun himself is weak when he first rises, and gathers strength and courage as the day gets on.",
+    "Author": "Charles Dickens",
+    "Category": "motivation",
+    "Tags": ["growth", "beginning"]
+  },
+  {
+    "Quote": "I'm in a relationship with food and it's getting pretty serious.",
+    "Author": "Unknown",
+    "Category": "humor",
+    "Tags": ["funny", "food"]
+  },
+  {
+    "Quote": "You are my paradise and I would happily get stranded on you.",
+    "Author": "Unknown",
+    "Category": "love",
+    "Tags": ["funny", "romantic"]
+  },
+  {
+    "Quote": "Do what you can, with what you have, where you are.",
+    "Author": "Theodore Roosevelt",
+    "Category": "motivation",
+    "Tags": ["action", "simplicity"]
+  }
+]
