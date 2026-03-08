@@ -1,0 +1,285 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - hi bot
+    - hello chatbot
+    - greetings
+    - what's up
+    - howdy
+    - heyy
+    - hii
+    - hello there friend
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - see ya
+    - take care
+    - have a nice day
+    - bye bye
+    - talk to you later
+    - farewell
+    - catch you later
+    - peace out
+    - gotta go
+    - see you soon
+
+- intent: ask_motivation
+  examples: |
+    - motivate me
+    - give me a motivational quote
+    - i need motivation
+    - inspire me to work
+    - i feel lazy
+    - need motivation for today
+    - tell me something motivational
+    - give me a pep talk
+    - i need a push
+    - encourage me
+    - help me stay positive
+    - i'm feeling unmotivated
+    - need some inspiration to get going
+
+- intent: ask_success
+  examples: |
+    - success quote
+    - quote about success
+    - tell me about success
+    - i want to be successful
+    - success motivation
+    - quote about achieving goals
+    - words of success
+    - give me a success story
+    - quote on winning
+    - success tips in a quote
+
+- intent: ask_love
+  examples: |
+    - love quote
+    - tell me a romantic quote
+    - quote about love
+    - something romantic
+    - i'm in love
+    - love message
+    - sweet love quote
+    - tell me something about love
+    - romantic words
+    - quote for my partner
+    - heart touching quote
+
+- intent: ask_humor
+  examples: |
+    - tell me a joke
+    - make me laugh
+    - funny quote
+    - something humorous
+    - crack me up
+    - tell me something funny
+    - i need a laugh
+    - say something witty
+    - funny one liner
+    - humor me
+    - give me a funny quote
+
+- intent: ask_inspiration
+  examples: |
+    - inspire me
+    - inspirational quote
+    - give me inspiration
+    - something inspiring
+    - i need inspiration
+    - words of wisdom
+    - deep quote
+    - thought provoking quote
+    - make me think
+    - philosophical quote
+
+- intent: ask_life_advice
+  examples: |
+    - give me life advice
+    - quote about life
+    - life lesson
+    - what does life mean
+    - wisdom about life
+    - quote for living
+    - life philosophy
+    - words to live by
+
+- intent: ask_wisdom
+  examples: |
+    - give me wisdom
+    - wise words
+    - ancient wisdom
+    - philosophical quote
+    - deep thought
+    - quote from a philosopher
+    - words of a sage
+    - profound quote
+
+- intent: another_quote
+  examples: |
+    - another one
+    - give me another
+    - more quotes
+    - another quote
+    - next quote
+    - one more
+    - say another
+    - different quote
+    - show me another
+    - again please
+    - encore
+    - hit me with another
+
+- intent: mood_great
+  examples: |
+    - i feel great
+    - i'm happy
+    - feeling amazing
+    - i'm in a good mood
+    - life is good
+    - i feel wonderful
+    - i'm fantastic
+    - feeling fantastic
+    - i'm on top of the world
+    - couldn't be better
+
+- intent: mood_unhappy
+  examples: |
+    - i feel sad
+    - i'm unhappy
+    - feeling down
+    - i'm stressed
+    - had a bad day
+    - i feel terrible
+    - i'm depressed
+    - feeling low
+    - i'm heartbroken
+    - life is hard
+    - feeling blue
+
+- intent: mood_stressed
+  examples: |
+    - i'm stressed
+    - feeling stressed
+    - too much pressure
+    - i'm overwhelmed
+    - can't handle this
+    - stressed out
+    - anxiety is high
+    - feeling anxious
+
+- intent: mood_tired
+  examples: |
+    - i'm tired
+    - feeling exhausted
+    - so sleepy
+    - no energy
+    - i'm drained
+    - burnt out
+    - need rest
+    - exhausted
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - sure
+    - of course
+    - absolutely
+    - definitely
+    - that helps
+    - yes please
+    - yup
+    - correct
+    - sounds good
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - not really
+    - not yet
+    - still sad
+    - no thanks
+    - not helping
+    - negative
+    - never mind
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - thanks a lot
+    - appreciate it
+    - thank you so much
+    - that was helpful
+    - thanks for the quote
+    - much appreciated
+    - you're the best
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot
+    - what are you
+    - who are you
+    - are you human
+    - tell me about yourself
+    - who made you
+    - what's your name
+
+- intent: feedback_positive
+  examples: |
+    - loved it
+    - great quote
+    - amazing
+    - perfect
+    - that's wonderful
+    - i like it
+    - beautiful quote
+    - awesome
+    - fantastic
+    - exactly what i needed
+
+- intent: feedback_negative
+  examples: |
+    - not helpful
+    - don't like it
+    - not good
+    - bad quote
+    - could be better
+    - not what i wanted
+    - meh
+    - disappointing
+
+- intent: ask_author
+  examples: |
+    - quotes by [Shakespeare](author)
+    - show me [Oscar Wilde](author)
+    - [Einstein](author) quotes
+    - tell me something from [Rumi](author)
+    - [Nietzsche](author) quote
+    - do you have [Marcus Aurelius](author)
+    - [Confucius](author) wisdom
+
+- intent: search_by_topic
+  examples: |
+    - quotes about [friendship](topic)
+    - [happiness](topic) quotes
+    - tell me about [success](topic)
+    - [courage](topic) quote
+    - [strength](topic) quotes
+    - something about [dreams](topic)
+    - [time](topic) quotes
+    - [change](topic) quote

@@ -1,0 +1,160 @@
+version: "3.1"
+
+stories:
+- story: motivation path
+  steps:
+  - intent: ask_motivation
+  - action: action_send_quote
+  - action: utter_ask_another
+
+- story: success path
+  steps:
+  - intent: ask_success
+  - action: action_send_quote
+  - action: utter_ask_another
+
+- story: love path
+  steps:
+  - intent: ask_love
+  - action: action_send_quote
+  - action: utter_ask_another
+
+- story: humor path
+  steps:
+  - intent: ask_humor
+  - action: action_send_quote
+  - action: utter_ask_another
+
+- story: inspiration path
+  steps:
+  - intent: ask_inspiration
+  - action: action_send_quote
+  - action: utter_ask_another
+
+- story: life advice path
+  steps:
+  - intent: ask_life_advice
+  - action: action_send_quote
+  - action: utter_ask_another
+
+- story: wisdom path
+  steps:
+  - intent: ask_wisdom
+  - action: action_send_quote
+  - action: utter_ask_another
+
+- story: another quote
+  steps:
+  - intent: another_quote
+  - action: action_another_quote
+  - action: utter_ask_another
+
+- story: greet then happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - action: action_send_quote
+
+- story: greet then sad
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: action_send_quote_by_emotion
+  - action: utter_did_that_help
+
+- story: sad then helped
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: action_send_quote_by_emotion
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad then not helped
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: action_send_quote_by_emotion
+  - action: utter_did_that_help
+  - intent: deny
+  - action: action_another_quote
+  - action: utter_did_that_help
+
+- story: stressed path
+  steps:
+  - intent: mood_stressed
+  - action: utter_cheer_up
+  - action: action_send_quote_by_emotion
+  - action: utter_did_that_help
+
+- story: tired path
+  steps:
+  - intent: mood_tired
+  - action: utter_cheer_up
+  - action: action_send_quote_by_emotion
+  - action: utter_did_that_help
+
+- story: thanks after quote
+  steps:
+  - intent: ask_motivation
+  - action: action_send_quote
+  - intent: thank
+  - action: utter_welcome
+  - action: utter_ask_another
+
+- story: feedback positive
+  steps:
+  - intent: ask_love
+  - action: action_send_quote
+  - intent: feedback_positive
+  - action: action_track_feedback
+  - action: utter_ask_another
+
+- story: feedback negative
+  steps:
+  - intent: ask_humor
+  - action: action_send_quote
+  - intent: feedback_negative
+  - action: action_track_feedback
+  - action: action_another_quote
+
+- story: search by author
+  steps:
+  - intent: ask_author
+  - action: action_search_by_author
+  - action: utter_ask_another
+
+- story: search by topic
+  steps:
+  - intent: search_by_topic
+  - action: action_search_by_topic
+  - action: utter_ask_another
+
+- story: daily quote
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: action_get_daily_quote
+  - action: utter_ask_another
+
+- story: full conversation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: action_send_quote_by_emotion
+  - intent: thank
+  - action: utter_welcome
+  - intent: another_quote
+  - action: action_another_quote
+  - intent: feedback_positive
+  - action: action_track_feedback
+  - intent: goodbye
+  - action: utter_goodbye
