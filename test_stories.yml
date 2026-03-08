@@ -1,0 +1,65 @@
+version: "3.1"
+
+stories:
+- story: motivation test
+  steps:
+  - user: |
+      motivate me
+    intent: ask_motivation
+  - action: action_send_quote
+
+- story: love test
+  steps:
+  - user: |
+      love quote
+    intent: ask_love
+  - action: action_send_quote
+
+- story: humor test
+  steps:
+  - user: |
+      tell me a joke
+    intent: ask_humor
+  - action: action_send_quote
+
+- story: another quote test
+  steps:
+  - user: |
+      another one
+    intent: another_quote
+  - action: action_another_quote
+
+- story: sad path test
+  steps:
+  - user: |
+      hello
+    intent: greet
+  - action: utter_greet
+  - user: |
+      i feel sad
+    intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: action_send_quote_by_emotion
+  - action: utter_did_that_help
+  - user: |
+      yes
+    intent: affirm
+  - action: utter_happy
+
+- story: stressed path test
+  steps:
+  - user: |
+      i'm stressed
+    intent: mood_stressed
+  - action: utter_cheer_up
+  - action: action_send_quote_by_emotion
+  - action: utter_did_that_help
+
+- story: author search test
+  steps:
+  - user: |
+      quotes by Shakespeare
+    intent: ask_author
+    entities:
+    - author: Shakespeare
+  - action: action_search_by_author
