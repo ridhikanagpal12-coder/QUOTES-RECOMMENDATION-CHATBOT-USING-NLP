@@ -1,0 +1,12 @@
+# Let pip resolve the best compatible versions
+rasa
+rasa-sdk
+tensorflow
+scikit-learn
+pandas
+numpy
+nltk
+textblob
+redis
+flask-cors
+python-dotenv
