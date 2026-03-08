@@ -1,0 +1,30 @@
+.PHONY: help train run run-actions run-frontend test clean
+
+help:
+	@echo "Available commands:"
+	@echo "  make train        - Train the Rasa model"
+	@echo "  make run          - Run Rasa server with API enabled"
+	@echo "  make run-actions  - Run actions server"
+	@echo "  make run-frontend - Open frontend in browser"
+	@echo "  make test         - Run tests"
+	@echo "  make clean        - Clean cache files"
+
+train:
+	rasa train
+
+run:
+	rasa run --enable-api --cors "*" -p 5005
+
+run-actions:
+	rasa run actions -p 5055
+
+run-frontend:
+	open frontend/index.html || xdg-open frontend/index.html || start frontend/index.html
+
+test:
+	rasa test
+
+clean:
+	find . -type d -name "__pycache__" -exec rm -rf {} +
+	find . -type f -name "*.pyc" -delete
+	rm -rf models/*
